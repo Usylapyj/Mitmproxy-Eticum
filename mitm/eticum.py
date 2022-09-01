@@ -2,11 +2,6 @@ import json
 import requests
 import sqlite3
 
-login = "mitmproxy@eticum.com"
-password = "no1knows"
-ETICUM_URL = "https://info-dev.eticum.com"
-
-
 class Api:
     def __init__(self):
         self.profileHash = None
